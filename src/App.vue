@@ -20,10 +20,9 @@ export default {
     AppHeader,
     AppMainSelection,
     AppFooter
-
   }
 }
 </script>
 <style lang=“scss”>
-  /* @import './styles/general/scss' */
+  @import "./components/styles/general.scss"
 </style>

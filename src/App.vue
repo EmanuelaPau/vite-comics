@@ -23,6 +23,8 @@ export default {
   }
 }
 </script>
+
 <style lang=“scss”>
-  @import "./components/styles/general.scss"
+  @import './styles/general.scss';
 </style>
+

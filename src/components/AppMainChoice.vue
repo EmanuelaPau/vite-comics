@@ -14,40 +14,39 @@
 
             <div class="card">
                 <a href="">
-                    <img class="card-img" src="../assets/buy-comics-digital-comics.png"
+                    <img class="card-img" src="../assets/buy-comics-merchandise.png"
                         alt="sylized dc comics logo inside an ipad">
                     <h3>
-                        Digital Comics
+                        Dc Merchandise
                     </h3>
                 </a>
             </div>
 
             <div class="card">
                 <a href="">
-                    <img class="card-img" src="../assets/buy-comics-digital-comics.png"
+                    <img class="card-img" src="../assets/buy-comics-subscriptions.png"
                         alt="sylized dc comics logo inside an ipad">
                     <h3>
-                        Digital Comics
+                        Subscription
                     </h3>
                 </a>
             </div>
 
             <div class="card">
                 <a href="">
-                    <img class="card-img" src="../assets/buy-comics-digital-comics.png"
+                    <img class="card-img" src="../assets/buy-comics-shop-locator.png"
                         alt="sylized dc comics logo inside an ipad">
                     <h3>
-                        Digital Comics
+                        Comic Shop Locator
                     </h3>
                 </a>
             </div>
 
             <div class="card">
                 <a href="">
-                    <img class="card-img" src="../assets/buy-comics-digital-comics.png"
-                        alt="sylized dc comics logo inside an ipad">
+                    <img class="card-img" src="../assets/buy-dc-power-visa.svg" alt="sylized dc comics logo inside an ipad">
                     <h3>
-                        Digital Comics
+                        Dc Power Visa
                     </h3>
                 </a>
             </div>
@@ -95,12 +94,13 @@ div.selection {
                 @include flex(row, center, center);
 
                 img {
-                    height: 50px;
+                    height: 45px;
                     margin-right: 1.3rem;
                 }
 
                 h3 {
-                    font-size: 1rem;
+                    font-size: .8rem;
+                    font-weight: 500;
                 }
             }
         }

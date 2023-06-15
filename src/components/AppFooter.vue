@@ -18,37 +18,37 @@
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Comics
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Movies
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            TV
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Games
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Videos
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            News
                                         </a>
                                     </li>
                                 </ul>
@@ -58,13 +58,13 @@
                                 <ul>
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Shop Dc
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Shop Dc Collectibles
                                         </a>
                                     </li>
                                 </ul>
@@ -81,67 +81,67 @@
                                 <ul>
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Terms of use
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Privacy policy (New)
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Ad Choices
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Advertising
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Jobs
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Subscriptions
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Talent Workshops
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            CPSC Certificates
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Ratings
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Shop Help
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            Contact Us
                                         </a>
                                     </li>
                                 </ul>
@@ -163,31 +163,31 @@
                                 <ul>
                                     <li>
                                         <a href="">
-                                            Characters
+                                            DC
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            MAD Magazine
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            DC Kids
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            DC Universe
                                         </a>
                                     </li>
 
                                     <li>
                                         <a href="">
-                                            Characters
+                                            DC Power Visa
                                         </a>
                                     </li>
                                 </ul>
@@ -209,10 +209,10 @@
 
         </div>
         <div class="footer-cta container">
-            <button>Sign-up-now!</button>
+            <button class="button-cta">Sign-up now!</button>
 
             <nav>
-                <a href="">
+                <a class="cta-txt" href="">
                     follow us
                 </a>
 
@@ -221,19 +221,19 @@
                 </a>
 
                 <a href="">
-                    <img src="../assets/footer-facebook.png" alt="#">
+                    <img src="../assets/footer-twitter.png" alt="#">
                 </a>
 
                 <a href="">
-                    <img src="../assets/footer-facebook.png" alt="#">
+                    <img src="../assets/footer-youtube.png" alt="#">
                 </a>
 
                 <a href="">
-                    <img src="../assets/footer-facebook.png" alt="#">
+                    <img src="../assets/footer-pinterest.png" alt="#">
                 </a>
 
                 <a href="">
-                    <img src="../assets/footer-facebook.png" alt="#">
+                    <img src="../assets/footer-periscope.png" alt="#">
                 </a>
             </nav>
 
@@ -275,7 +275,7 @@ footer {
 
         div.container {
             @include flex(row, space-between, center);
-            height: 400px;
+            height: 450px;
 
             .nav-menu {
                 @include flex(row, left, start);
@@ -300,6 +300,7 @@ footer {
 
                                     a {
                                         color: $tertiaryColor;
+                                        font-size: .9rem;
                                     }
                                 }
                             }
@@ -314,23 +315,33 @@ footer {
                 width: 40%;
 
             }
-
         }
+    }
 
-
+    button.button-cta {
+        border-radius: none;
+        border: 1px solid $primaryColor;
+        background-color: $secondaryColor;
+        color: $colorLight;
+        text-transform: uppercase;
+        font-size: .9rem;
+        padding: .7rem 1rem;
     }
 
     .footer-cta {
         @include flex(row, space-between, center);
         padding: 2rem;
 
+
         nav {
             @include flex(row, space-between, center);
 
-            a {
+            a.cta-txt {
                 color: $primaryColor;
                 text-transform: uppercase;
                 margin-right: 12px;
+                font-size: 1.2rem;
+                font-weight: 600;
             }
 
             img {

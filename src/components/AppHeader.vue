@@ -94,6 +94,8 @@ header {
             a {
                 text-decoration: none;
                 color: $secondaryColor;
+                font-size: .9rem;
+                font-weight: 600;
             }
         }
     }

@@ -1,5 +1,8 @@
 <template>
     <div>
+        <h1>
+            Main
+        </h1>
     </div>
 </template>
 
@@ -20,6 +23,6 @@ export default {
 }		
 </script>
 <style scoped lang=“scss”>
-	@use './styles/general/partials/_variables.scss';
-	@use './styles/general/partials/_mixins.scss';
+	/* @use './styles/general/partials/_variables.scss';
+	@use './styles/general/partials/_mixins.scss'; */
 </style> 

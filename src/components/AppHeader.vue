@@ -1,37 +1,58 @@
 <template>
-    <header class="">
-        <img class="brand-logo" src="" alt="dc comics brand logo in blue">
+    <header class="container">
+        <img class="brand-logo" src="../assets/dc-logo.png" alt="dc comics brand logo in blue">
         <nav>
             <ul class="">
                 <li>
-                    characters
+                    <a href="#">
+                        characters
+                    </a>
                 </li>
                 <li>
-                    comics
+                    <a href="#">
+                        comics
+                    </a>
+
                 </li>
                 <li>
-                    movies
+                    <a href="#">
+                        movies
+                    </a>
                 </li>
                 <li>
-                    tv
+                    <a href="#">
+                        tv
+                    </a>
                 </li>
                 <li>
-                    games
+                    <a href="#">
+                        games
+                    </a>
                 </li>
                 <li>
-                    collectibles
+                    <a href="#">
+                        collectables
+                    </a>
                 </li>
                 <li>
-                    videos
+                    <a href="#">
+                        videos
+                    </a>
                 </li>
                 <li>
-                    fans
+                    <a href="#">
+                        fans
+                    </a>
                 </li>
                 <li>
-                    news
+                    <a href="#">
+                        news
+                    </a>
                 </li>
                 <li>
-                    shop
+                    <a href="#">
+                        shop
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +76,26 @@ export default {
 @import '../styles/partials/_mixins.scss';
 
 header {
-    padding: 2rem;
+    padding: 1rem;
+    // background-color: aqua;
+    @include flex(row, space-between, center);
 
+    img.brand-logo {
+        width: 80px
+    }
+
+    ul {
+        @include flex(row, center, center);
+
+        li {
+            margin: 1rem;
+            text-transform: uppercase;
+
+            a {
+                text-decoration: none;
+                color: $secondaryColor;
+            }
+        }
+    }
 }
 </style>

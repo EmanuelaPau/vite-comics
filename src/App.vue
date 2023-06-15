@@ -1,20 +1,29 @@
 <template>
   <div>
-    <HelloWorld>
-    </HelloWorld>
+    <AppHeader />
+    <AppMainSelection />
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue'
+
+import AppMainSelection from './components/AppMainSelection.vue'
+
+import AppFooter from './components/AppFooter.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppHeader,
+    AppMainSelection,
+    AppFooter
+
   }
 }
 </script>
 <style lang=“scss”>
-  @import ‘./styles/general/scss’ 
+  @import './styles/general/scss’ 
 </style>

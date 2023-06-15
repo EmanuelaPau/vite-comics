@@ -22,7 +22,8 @@ export default {
     },
 }		
 </script>
-<style scoped lang=“scss”>
-	/* @use './styles/general/partials/_variables.scss';
-	@use './styles/general/partials/_mixins.scss'; */
-</style> 
+<style scoped lang="scss">
+@import '../styles/partials/_variables.scss';
+@import '../styles/partials/_mixins.scss';
+</style>
+

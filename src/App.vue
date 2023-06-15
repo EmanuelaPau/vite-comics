@@ -2,7 +2,9 @@
   <div>
     <AppHeader />
     <AppMainSelection />
+    <AppMainChoice />
     <AppFooter />
+
   </div>
 </template>
 
@@ -11,7 +13,10 @@ import AppHeader from './components/AppHeader.vue'
 
 import AppMainSelection from './components/AppMainSelection.vue'
 
+import AppMainChoice from './components/AppMainChoice.vue'
+
 import AppFooter from './components/AppFooter.vue'
+
 
 
 export default {
@@ -19,6 +24,7 @@ export default {
   components: {
     AppHeader,
     AppMainSelection,
+    AppMainChoice,
     AppFooter
   }
 }

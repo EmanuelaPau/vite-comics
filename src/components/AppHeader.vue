@@ -3,8 +3,9 @@
         <img class="brand-logo" src="../assets/dc-logo.png" alt="dc comics brand logo in blue">
         <nav>
             <ul class="">
-                <li>
-                    <a href="#" class="" v-for="element in menuList">
+                <li class="" v-for="(element, index) in menuList"
+                    @click="menuList[index].active == false ? menuList[index].active = true : menuList[index].active = false">
+                    <a href="#" class="">
                         {{ element.name }}
                     </a>
                 </li>

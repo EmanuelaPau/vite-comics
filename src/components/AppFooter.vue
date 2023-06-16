@@ -8,9 +8,9 @@
                     <div v-for="(sections, index) in navLinks" class="ul-list-container">
                         <h3>{{ sections.title }}</h3>
                         <ul>
-                            <li>
+                            <li v-for="(links) in navLinks[index].pages">
                                 <a href="">
-                                    Shop Dc
+                                    {{ links }}
                                 </a>
                             </li>
                         </ul>

@@ -112,7 +112,8 @@ main {
     .jumbo {
         height: 330px;
         background-color: aqua;
-        // background-image: ;
+        background-image: url(../assets/jumbotron.jpg);
+        background-size: cover;
     }
 }
 </style>

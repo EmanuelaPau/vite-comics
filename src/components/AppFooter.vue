@@ -247,9 +247,58 @@ export default {
     name: 'AppFooter',
     data() {
         return {
-            links: [
-                'gino',
-                'ciao',
+            navLinks: [
+                {
+                    title: 'DC Comics',
+                    pages:
+                        [
+                            'Characters',
+                            'Comics',
+                            'Movies ',
+                            'TV',
+                            'Games',
+                            'Videos',
+                            'News'
+                        ],
+                },
+                {
+                    title: 'Shop',
+                    pages:
+                        [
+                            'Shop DC',
+                            'Shop DC Collectibles',
+                        ],
+                },
+                {
+                    title: 'DC',
+                    pages:
+                        [
+                            'Terms of use',
+                            'Privacy Policy (New)',
+                            'Ad Choices',
+                            'Advertising',
+                            'Jobs',
+                            'Subscriptions',
+                            'Talent Workshops',
+                            'CPSC Certificater',
+                            'Ratings',
+                            'Shop Help',
+                            'Contact Us',
+                        ],
+                },
+
+                {
+                    title: 'Sites',
+                    pages:
+                        [
+                            'DC',
+                            'MAD Magazine',
+                            'DC Kids',
+                            'DC Universe',
+                            'DC Power Visa',
+                        ],
+                },
+
             ]
         }
     },

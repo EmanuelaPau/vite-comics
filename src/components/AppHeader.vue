@@ -86,12 +86,25 @@ header {
         color: $primaryColor;
     }
 
+    .underline {
+        position: absolute;
+        top: calc(100% + 1rem - 5px);
+        left: 0;
+        transform: translateX(-.5rem);
+
+        width: calc(100% - 1rem);
+        margin: 0 1rem;
+        height: 5px;
+        background-color: $primaryColor;
+    }
+
     nav {
         height: 80px;
+        // height: calc(100% + 2rem);
 
         ul {
             @include flex(row, center, center);
-            height: calc(100% + 2rem);
+            height: 100%;
 
             li {
                 position: relative;
@@ -107,18 +120,6 @@ header {
                     font-size: .9rem;
                     font-weight: 600;
                     margin: 1rem;
-                }
-
-                .underline {
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    transform: translateX(-.5rem);
-
-                    width: calc(100% - 1rem);
-                    margin: 1rem;
-                    height: 5px;
-                    background-color: $primaryColor;
                 }
 
                 a:hover {

@@ -4,110 +4,18 @@
 
             <div class="container">
                 <div class="nav-menu">
-                    <div class="ul-list-container">
-                        <h3>Shop</h3>
+
+                    <div v-for="(sections, index) in navLinks" class="ul-list-container">
+                        <h3>{{ sections.title }}</h3>
                         <ul>
                             <li>
                                 <a href="">
                                     Shop Dc
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
                         </ul>
                     </div>
 
-                    <div class="ul-list-container">
-                        <h3>Shop</h3>
-                        <ul>
-
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="ul-list-container">
-                        <h3>Shop</h3>
-                        <ul>
-
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-
-
-                            <li>
-                                <a href="">
-                                    Shop Dc Collectibles
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
 
                 <img src="../assets/dc-logo-bg.png" alt="">

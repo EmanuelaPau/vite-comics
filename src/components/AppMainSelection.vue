@@ -1,8 +1,15 @@
 <template>
     <main>
-        <div class="jumbo"></div>
+        <div class="jumbo">
+
+        </div>
         <div class="content">
             <article class="container comics-card-container">
+
+                <div class="section-title">
+                    <h1>current series</h1>
+                </div>
+
                 <AppComics v-for="elements in comicsList" class="comics-card" :comicsTumbnail=elements.thumb
                     :comicsName=elements.series />
             </article>
@@ -109,25 +116,40 @@ export default {
 main {
     color: $colorLight;
 
-    .comics-card-container {
-        display: flex;
-        justify-content: space-between;
-        align-content: flex-start;
-        flex-wrap: wrap;
-        gap: 1rem;
+    div.jumbo {
+        height: 330px;
+        background-color: aqua;
+        background-image: url(../assets/jumbotron.jpg);
+        background-size: cover;
+
+    }
+
+    div.section-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-20%), translateY(calc(-50% - 3rem));
+        background-color: $primaryColor;
+
+        h1 {
+            padding: .8rem 1.2rem;
+            text-transform: uppercase;
+        }
     }
 
     div.content {
         background-color: $quaternaryColor;
         width: 100%;
         padding: 3rem;
-    }
 
-    .jumbo {
-        height: 330px;
-        background-color: aqua;
-        background-image: url(../assets/jumbotron.jpg);
-        background-size: cover;
+        article.comics-card-container {
+            display: flex;
+            justify-content: space-between;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            gap: 1rem;
+            position: relative;
+        }
     }
 }
 </style>

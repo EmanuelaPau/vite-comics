@@ -6,7 +6,8 @@
                 <li class="" v-for="(element, index) in menuList"
                     @click="menuList[index].active == false ? menuList[index].active = true : menuList[index].active = false">
                     <a href="#" :class="menuList[index].active == true ? 'active' : ''">
-                        {{ element.name }}
+                        {{ element.name }} <span class="underline"
+                            :class="menuList[index].active == true ? '' : 'display-none'"></span>
                     </a>
                 </li>
             </ul>
@@ -85,18 +86,44 @@ header {
         color: $primaryColor;
     }
 
-    ul {
-        @include flex(row, center, center);
+    nav {
+        height: 80px;
 
-        li {
-            text-transform: uppercase;
+        ul {
+            @include flex(row, center, center);
+            height: calc(100% + 2rem);
 
-            a {
-                text-decoration: none;
-                color: $secondaryColor;
-                font-size: .9rem;
-                font-weight: 600;
-                margin: 1rem;
+            li {
+                position: relative;
+                text-transform: uppercase;
+                height: 100%;
+
+                display: flex;
+                align-items: center;
+
+                a {
+                    text-decoration: none;
+                    color: $secondaryColor;
+                    font-size: .9rem;
+                    font-weight: 600;
+                    margin: 1rem;
+                }
+
+                .underline {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transform: translateX(-.5rem);
+
+                    width: calc(100% - 1rem);
+                    margin: 1rem;
+                    height: 5px;
+                    background-color: $primaryColor;
+                }
+
+                a:hover {
+                    color: $tertiaryColor ;
+                }
             }
         }
     }

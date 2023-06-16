@@ -3,8 +3,7 @@
         <div class="jumbo"></div>
         <div class="content">
             <article class="container comics-card-container">
-                <AppComics class="comics-card" />
-
+                <AppComics v-for="elements in comicsList" class="comics-card" />
             </article>
         </div>
 
@@ -112,6 +111,7 @@ main {
     .comics-card-container {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     div.content {

@@ -61,10 +61,6 @@ export default {
     name: 'AppMainSelection',
     data() {
         return {
-            links: [
-                'gino',
-                'ciao',
-            ]
         }
     },
     methods() {

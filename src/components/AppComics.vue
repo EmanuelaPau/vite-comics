@@ -30,7 +30,7 @@ div.comics-card {
     div.img-container {
         width: 140px;
         height: 150px;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
 
         img {
             width: 100%;

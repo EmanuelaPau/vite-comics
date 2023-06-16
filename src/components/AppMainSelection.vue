@@ -128,11 +128,11 @@ main {
         position: absolute;
         top: 0;
         left: 0;
-        transform: translateX(-20%), translateY(calc(-50% - 3rem));
+        transform: translateY(calc(-50% - 3rem)) translateX(-20%);
         background-color: $primaryColor;
 
         h1 {
-            padding: .8rem 1.2rem;
+            padding: .5rem 1.2rem;
             text-transform: uppercase;
         }
     }

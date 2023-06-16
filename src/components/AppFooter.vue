@@ -30,24 +30,8 @@
                     follow us
                 </a>
 
-                <a href="">
-                    <img src="../assets/footer-facebook.png" alt="#">
-                </a>
-
-                <a href="">
-                    <img src="../assets/footer-twitter.png" alt="#">
-                </a>
-
-                <a href="">
-                    <img src="../assets/footer-youtube.png" alt="#">
-                </a>
-
-                <a href="">
-                    <img src="../assets/footer-pinterest.png" alt="#">
-                </a>
-
-                <a href="">
-                    <img src="../assets/footer-periscope.png" alt="#">
+                <a v-for="icons in navSocials" href="">
+                    <img :src="'../assets/' + icons.img" :alt="icons.link">
                 </a>
             </nav>
 
@@ -113,7 +97,30 @@ export default {
                         ],
                 },
 
-            ]
+            ],
+
+            navSocials: [
+                {
+                    img: 'footer-facebook.png',
+                    link: '#'
+                },
+                {
+                    img: 'footer-twitter.png',
+                    link: '#'
+                },
+                {
+                    img: 'footer-youtube.png',
+                    link: '#'
+                },
+                {
+                    img: 'footer-pinterest.png',
+                    link: '#'
+                },
+                {
+                    img: 'footer-periscope.png',
+                    link: '#'
+                },
+            ],
         }
     },
     methods() {

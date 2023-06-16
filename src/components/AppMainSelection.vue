@@ -3,7 +3,8 @@
         <div class="jumbo"></div>
         <div class="content">
             <article class="container comics-card-container">
-                <AppComics v-for="elements in comicsList" class="comics-card" />
+                <AppComics v-for="elements in comicsList" class="comics-card" :comicsTumbnail=elements.thumb
+                    :comicsName=elements.series />
             </article>
         </div>
 

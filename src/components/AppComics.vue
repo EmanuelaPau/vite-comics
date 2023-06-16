@@ -1,8 +1,8 @@
 <template>
     <div class="comics-card">
         <div class="img-container">
-            <img src="../assets/testimg.webp" alt="">
-            <p>American Vampire 1976</p>
+            <img :src="comicsTumbnail" alt="">
+            <p>{{ comicsName }}</p>
         </div>
     </div>
 </template>
@@ -11,6 +11,11 @@
 
 export default {
     name: 'AppMainSelection',
+
+    props: {
+        comicsTumbnail: String,
+        comicsName: String,
+    },
 
     data() {
         return {

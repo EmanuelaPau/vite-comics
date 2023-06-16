@@ -5,53 +5,7 @@
             <ul class="">
                 <li>
                     <a href="#">
-                        characters
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        comics
-                    </a>
 
-                </li>
-                <li>
-                    <a href="#">
-                        movies
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        tv
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        games
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        collectables
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        videos
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        fans
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        news
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        shop
                     </a>
                 </li>
             </ul>
@@ -65,6 +19,58 @@ export default {
     name: 'AppHeader',
     data() {
         return {
+            menuList: [
+                {
+                    name: characters,
+                    active: false,
+                },
+
+                {
+                    name: comics,
+                    active: false,
+                },
+
+                {
+                    name: movies,
+                    active: false,
+                },
+
+                {
+                    name: tv,
+                    active: false,
+                },
+
+                {
+                    name: games,
+                    active: false,
+                },
+
+                {
+                    name: collectables,
+                    active: false,
+                },
+
+                {
+                    name: videos,
+                    active: false,
+                },
+
+                {
+                    name: fans,
+                    active: false,
+                },
+
+                {
+                    name: news,
+                    active: false,
+                },
+
+                {
+                    name: shop,
+                    active: false,
+                },
+
+            ]
         }
     },
     methods() {

@@ -7,7 +7,7 @@
 
                     <div class="nav-column">
                         <div class="nav-col-ul-container">
-                            <div class="ul-list-container">
+                            <div class="ul-list-container active">
                                 <h3>Dc comics</h3>
                                 <ul>
                                     <li>

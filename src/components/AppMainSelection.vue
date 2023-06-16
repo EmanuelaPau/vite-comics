@@ -112,7 +112,9 @@ main {
     .comics-card-container {
         display: flex;
         justify-content: space-between;
+        align-content: flex-start;
         flex-wrap: wrap;
+        gap: 1rem;
     }
 
     div.content {

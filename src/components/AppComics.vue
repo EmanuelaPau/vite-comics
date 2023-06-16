@@ -2,7 +2,7 @@
     <div class="comics-card">
         <div class="img-container">
             <img :src="comicsTumbnail" alt="">
-            <p>{{ comicsName }}</p>
+            <p> {{ comicsName }}</p>
         </div>
     </div>
 </template>
@@ -27,14 +27,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../styles/partials/_variables.scss';
-@import '../styles/partials/_mixins.scss';
+// @import '../styles/partials/_variables.scss';
+// @import ' ../styles/partials/_mixins.scss';
 
 div.comics-card {
 
     div.img-container {
-        width: 140px;
-        height: 150px;
+        width: calc(100vw / 9);
+        height: calc((100vw / 6 - 5rem));
         margin-bottom: 5rem;
 
         img {

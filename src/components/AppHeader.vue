@@ -88,7 +88,6 @@ header {
         @include flex(row, center, center);
 
         li {
-            margin: 1rem;
             text-transform: uppercase;
 
             a {
@@ -96,6 +95,7 @@ header {
                 color: $secondaryColor;
                 font-size: .9rem;
                 font-weight: 600;
+                margin: 1rem;
             }
         }
     }

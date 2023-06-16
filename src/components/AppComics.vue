@@ -26,11 +26,11 @@ export default {
 @import '../styles/partials/_mixins.scss';
 
 div.comics-card {
-    width: 150px;
 
     div.img-container {
-        height: 160px;
-        margin-bottom: 2rem;
+        width: 140px;
+        height: 150px;
+        margin-bottom: 4rem;
 
         img {
             width: 100%;
@@ -42,7 +42,7 @@ div.comics-card {
 
         p {
             text-transform: uppercase;
-            font-size: .8rem;
+            font-size: .75rem;
         }
     }
 

@@ -2,8 +2,9 @@
     <main>
         <div class="jumbo"></div>
         <div class="content">
-            <article class="container">
+            <article class="container comics-card-container">
                 <AppComics class="comics-card" />
+
             </article>
         </div>
 
@@ -107,6 +108,11 @@ export default {
 
 main {
     color: $colorLight;
+
+    .comics-card-container {
+        display: flex;
+        justify-content: space-between;
+    }
 
     div.content {
         background-color: $quaternaryColor;

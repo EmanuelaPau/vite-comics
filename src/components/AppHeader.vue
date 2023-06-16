@@ -5,7 +5,7 @@
             <ul class="">
                 <li class="" v-for="(element, index) in menuList"
                     @click="menuList[index].active == false ? menuList[index].active = true : menuList[index].active = false">
-                    <a href="#" class="">
+                    <a href="#" :class="menuList[index].active == true ? 'active' : ''">
                         {{ element.name }}
                     </a>
                 </li>
@@ -23,43 +23,43 @@ export default {
             menuList: [
                 {
                     name: 'characters',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'comics',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'movies',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'tv',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'games',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'collectibles',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'videos',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'fans',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'news',
-                    active: true,
+                    active: false,
                 },
                 {
                     name: 'shop',
-                    active: true,
+                    active: false,
                 },
             ],
         }

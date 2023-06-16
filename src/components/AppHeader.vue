@@ -4,8 +4,8 @@
         <nav>
             <ul class="">
                 <li>
-                    <a href="#">
-
+                    <a href="#" class="" v-for="element in menuList">
+                        {{ element.name }}
                     </a>
                 </li>
             </ul>
@@ -21,56 +21,46 @@ export default {
         return {
             menuList: [
                 {
-                    name: characters,
-                    active: false,
+                    name: 'characters',
+                    active: true,
                 },
-
                 {
-                    name: comics,
-                    active: false,
+                    name: 'comics',
+                    active: true,
                 },
-
                 {
-                    name: movies,
-                    active: false,
+                    name: 'movies',
+                    active: true,
                 },
-
                 {
-                    name: tv,
-                    active: false,
+                    name: 'tv',
+                    active: true,
                 },
-
                 {
-                    name: games,
-                    active: false,
+                    name: 'games',
+                    active: true,
                 },
-
                 {
-                    name: collectables,
-                    active: false,
+                    name: 'collectibles',
+                    active: true,
                 },
-
                 {
-                    name: videos,
-                    active: false,
+                    name: 'videos',
+                    active: true,
                 },
-
                 {
-                    name: fans,
-                    active: false,
+                    name: 'fans',
+                    active: true,
                 },
-
                 {
-                    name: news,
-                    active: false,
+                    name: 'news',
+                    active: true,
                 },
-
                 {
-                    name: shop,
-                    active: false,
+                    name: 'shop',
+                    active: true,
                 },
-
-            ]
+            ],
         }
     },
     methods() {
@@ -88,6 +78,10 @@ header {
 
     img.brand-logo {
         width: 80px
+    }
+
+    .active {
+        color: $primaryColor;
     }
 
     ul {

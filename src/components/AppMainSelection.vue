@@ -3,7 +3,7 @@
         <div class="jumbo"></div>
         <div class="content">
             <div class="container">
-
+                <AppComics />
             </div>
         </div>
 
@@ -11,9 +11,14 @@
 </template>
 
 <script>
+import AppComics from './AppComics.vue'
 
 export default {
     name: 'AppMainSelection',
+    components: {
+        AppComics,
+    },
+
     data() {
         return {
             comicsList: [

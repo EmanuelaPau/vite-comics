@@ -1,5 +1,10 @@
 <template>
-    <div>ciao</div>
+    <div class="comics-card">
+        <div class="img-container">
+            <img src="../assets/testimg.webp" alt="">
+            <p>American Vampire 1976</p>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -20,8 +25,27 @@ export default {
 @import '../styles/partials/_variables.scss';
 @import '../styles/partials/_mixins.scss';
 
-div {
-    color: white;
+div.comics-card {
+    width: 150px;
+
+    div.img-container {
+        height: 160px;
+        margin-bottom: 2rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            margin-bottom: .7rem;
+        }
+
+        p {
+            text-transform: uppercase;
+            font-size: .8rem;
+        }
+    }
+
 }
 </style>
 

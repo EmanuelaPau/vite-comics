@@ -2,9 +2,9 @@
     <main>
         <div class="jumbo"></div>
         <div class="content">
-            <div class="container">
-                <AppComics />
-            </div>
+            <article class="container">
+                <AppComics class="comics-card" />
+            </article>
         </div>
 
     </main>

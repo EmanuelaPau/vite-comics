@@ -4,204 +4,110 @@
 
             <div class="container">
                 <div class="nav-menu">
+                    <div class="ul-list-container">
+                        <h3>Shop</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Shop Dc
+                                </a>
+                            </li>
 
-                    <div class="nav-column">
-                        <div class="nav-col-ul-container">
-                            <div class="ul-list-container active">
-                                <h3>Dc comics</h3>
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            Characters
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Comics
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Movies
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            TV
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Games
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Videos
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            News
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="ul-list-container">
-                                <h3>Shop</h3>
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            Shop Dc
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            Shop Dc Collectibles
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div class="nav-column">
-                        <div class="nav-col-ul-container">
-                            <div class="ul-list-container">
-                                <h3>Dc</h3>
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            Terms of use
-                                        </a>
-                                    </li>
+                    <div class="ul-list-container">
+                        <h3>Shop</h3>
+                        <ul>
 
-                                    <li>
-                                        <a href="">
-                                            Privacy policy (New)
-                                        </a>
-                                    </li>
 
-                                    <li>
-                                        <a href="">
-                                            Ad Choices
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Advertising
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            Jobs
-                                        </a>
-                                    </li>
 
-                                    <li>
-                                        <a href="">
-                                            Subscriptions
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            Talent Workshops
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            CPSC Certificates
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            Ratings
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            Shop Help
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="">
-                                            Contact Us
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="nav-col-ul-container">
-                            <h1></h1>
-                            <ul>
-                                <li></li>
-                            </ul>
-                        </div>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
-                    <div class="nav-column">
-                        <div class="nav-col-ul-container">
-                            <div class="ul-list-container">
-                                <h3>Sites</h3>
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            DC
-                                        </a>
-                                    </li>
+                    <div class="ul-list-container">
+                        <h3>Shop</h3>
+                        <ul>
 
-                                    <li>
-                                        <a href="">
-                                            MAD Magazine
-                                        </a>
-                                    </li>
 
-                                    <li>
-                                        <a href="">
-                                            DC Kids
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            DC Universe
-                                        </a>
-                                    </li>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
 
-                                    <li>
-                                        <a href="">
-                                            DC Power Visa
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
-                        <div class="nav-col-ul-container">
-                            <h1></h1>
-                            <ul>
-                                <li></li>
-                            </ul>
-                        </div>
+                            <li>
+                                <a href="">
+                                    Shop Dc Collectibles
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-
                 </div>
 
                 <img src="../assets/dc-logo-bg.png" alt="">
@@ -327,31 +233,28 @@ footer {
             height: 450px;
 
             .nav-menu {
-                @include flex(row, left, start);
+                @include flex(column, left, start);
+                flex-wrap: wrap;
+                height: 100%;
                 width: 50%;
                 padding: 2rem;
 
-                .nav-column {
+                .ul-list-container {
+                    margin-bottom: 1.3rem;
+                    margin-right: 2.5rem;
 
-                    .nav-col-ul-container {
-                        .ul-list-container {
-                            margin-bottom: 1.3rem;
-                            margin-right: 2.5rem;
+                    h3 {
+                        margin-bottom: 1rem;
+                        text-transform: uppercase;
+                    }
 
-                            h3 {
-                                margin-bottom: 1rem;
-                                text-transform: uppercase;
-                            }
+                    ul {
+                        li {
+                            margin-bottom: .5rem;
 
-                            ul {
-                                li {
-                                    margin-bottom: .5rem;
-
-                                    a {
-                                        color: $tertiaryColor;
-                                        font-size: .9rem;
-                                    }
-                                }
+                            a {
+                                color: $tertiaryColor;
+                                font-size: .9rem;
                             }
                         }
                     }
